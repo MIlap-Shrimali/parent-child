@@ -1,0 +1,12 @@
+<div class="mt-5">
+    <h1>Child Component</h1>
+
+<h3>Message Received From Parent Component :{{dataReceivedFromParent}} </h3>
+
+<div>
+    <label for="id2" class="mx-2">Reply</label>
+    <input type="text" name="reply" id="id2" [(ngModel)]="replyData">
+    <button type="button" class="btn btn-primary mx-2" (click)="sendData()">Send</button>
+   </div>
+
+</div>
